@@ -1,0 +1,17 @@
+{
+  "name": "synth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "browser-sync start -s \"./\" -f \"./\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "=2.18.13",
+    "requirejs": "=2.3.5",
+    "tone": "=0.10.0"
+  }
+}
